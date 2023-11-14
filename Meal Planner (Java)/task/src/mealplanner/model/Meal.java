@@ -42,7 +42,6 @@ public class Meal {
                 "Name: %s\n" +
                 "Ingredients:\n", category, name));
         ingredients.stream().forEach(e -> output.append(e + "\n"));
-        output.append("The meal has been added!");
         return output.toString();
     }
 }
